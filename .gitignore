@@ -1,2 +1,42 @@
-fs/bin/*
-fs/lib64/*
+# Build artifacts and distributable images
+/bzImage
+/fs.cpio.gz
+*.cpio
+*.cpio.gz
+*.cpio.xz
+*.cpio.zst
+*.iso
+*.img
+*.qcow
+*.qcow2
+*.vmdk
+*.vdi
+
+# Generated root filesystem contents (populated by the build)
+/fs/bin/*
+/fs/lib64/*
+/fs/sbin/*
+/fs/usr/*
+/fs/var/*
+/fs/run/*
+/fs/tmp/*
+/fs/proc/*
+/fs/sys/*
+/fs/dev/*
+/fs/mnt/*
+
+# Third-party BusyBox source/build tree (only configs/busybox.config is tracked)
+/busybox/
+
+# Local scratch / host mount point
+/mnt/
+
+# Compiled test programs
+/some
+
+# Editor and OS clutter
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

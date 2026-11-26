@@ -14,6 +14,8 @@ bin="$root/fs/bin"
 bb="$bin/busybox"
 mode=${1:-curated}
 
+mkdir -p "$bin"
+
 if [ ! -x "$bb" ]; then
 	echo "error: $bb not found or not executable" >&2
 	exit 1

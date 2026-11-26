@@ -1,9 +1,12 @@
 #!/bin/sh
 
-export PATH=/bin:/sbin/usr/bin:/usr/sbin
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin
 export HOME=/root
 export HOSTNAME=$(cat /etc/hostname)
 export SHELL=/bin/sh
+
+# mount points may not exist in a fresh checkout
+mkdir -p /dev /proc /sys /tmp /mnt
 
 # mount core filesystems
 mount -t sysfs sysfs /sys
