@@ -25,13 +25,9 @@
 /fs/dev/*
 /fs/mnt/*
 
-# Third-party BusyBox source/build tree (only configs/busybox.config is tracked)
 /busybox/
-
-# Local scratch / host mount point
 /mnt/
 
-# Compiled test programs
 /some
 
 # Editor and OS clutter
