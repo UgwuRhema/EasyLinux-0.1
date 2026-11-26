@@ -1,0 +1,6 @@
+NAME="Easy Linux"
+VERSION="0.1"
+ID=linux_small
+PRETTY_NAME="Easy Linux v0.1"
+VERSION_CODENAME="Custom"
+HOME_URL="https://easylinux.com"
