@@ -21,4 +21,4 @@ make:
 		-m 1024 \
 		-smp 4 \
 		-display gtk \
-		-vga virtio
+		-vga std
