@@ -1,0 +1,2 @@
+[ -x /bin/fastfetch ] && fastfetch
+export PS1='\u@\h:\w\$'
