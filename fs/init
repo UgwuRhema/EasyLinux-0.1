@@ -16,4 +16,5 @@ mount -t tmpfs tmpfs /tmp
 
 hostname -F /etc/hostname
 
+source /etc/profile
 exec /bin/sh -i
