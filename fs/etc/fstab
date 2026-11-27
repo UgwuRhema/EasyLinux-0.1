@@ -1,0 +1,5 @@
+# <fs>    <mountpoint>   <type>     <opts>    <dump/pass>
+
+/dev/sda2      /           ext2       noatime      0  1
+
+/dev/sda1      /boot       vfat       defaults,noatime    0  2 
