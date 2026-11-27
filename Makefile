@@ -7,7 +7,7 @@ initramfs:
 	$(MAKE) -C . init
 
 init:
-	cd fs && find . | cpio -o -H newc | gzip -9 > ../fs.cpio.gz
+	cd fs && find . | cpio -o -H newc --owner=root:root | gzip -9 > ../fs.cpio.gz
 	cd ..
 
 make:
