@@ -17,8 +17,8 @@ make:
 		-cpu host \
 		-kernel bzImage \
 		-initrd fs.cpio.gz \
-		-drive format=qcow2,file=easy-linux.qcow2,if=ide\
-		-m 1024 \
+		-drive format=qcow2,file=easy-linux.qcow2,if=ide \
+		-m 1.5G \
 		-smp 4 \
 		-display gtk \
 		-vga std
