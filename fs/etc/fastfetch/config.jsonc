@@ -21,12 +21,14 @@
     "uptime",
     "shell",
     "terminal",
+	"font",
     "cpu",
     "memory",
     "swap",
     "disk",
     "processes",
     "loadavg",
+	"locale",
     "break",
     "colors"
   ]
